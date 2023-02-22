@@ -1,0 +1,17 @@
+.navbar {
+    text-align: center;
+    width:500px;
+    margin:auto;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Pumpkin Cheesecake', sans-serif;
+    font-size: xx-large ;
+}
+.navbar a:hover {
+    background-color: red;
+}
