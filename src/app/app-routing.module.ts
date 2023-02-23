@@ -5,10 +5,10 @@ import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  { path: 'anne-parentalite/services', component: ServicesComponent },
-  { path: 'anne-parentalite/', component: PresentationComponent },
-  { path: 'anne-parentalite/a-propos', component: PresentationComponent },
-  { path: 'anne-parentalite/contact', component: ContactComponent }
+  { path: 'services', component: ServicesComponent },
+  { path: '', component: PresentationComponent },
+  { path: 'a-propos', component: PresentationComponent },
+  { path: 'contact', component: ContactComponent }
 ];
 
 @NgModule({
