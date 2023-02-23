@@ -10,6 +10,7 @@ import { MenuComponent } from './menu/menu.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { ServicesComponent } from './services/services.component';
 import { PrestationComponent } from './prestation/prestation.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PrestationComponent } from './prestation/prestation.component';
     MenuComponent,
     PresentationComponent,
     ServicesComponent,
-    PrestationComponent
+    PrestationComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

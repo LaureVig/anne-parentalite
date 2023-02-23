@@ -29,6 +29,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## TODO
 
 * Comprendre pourquoi les descriptions de prestations ne fonctionnent pas correctement
-* Faire le routage
 * Mettre une police dans le h2 du titre
 * Comprendre pourquoi l'image ne s'affiche pas sur github
