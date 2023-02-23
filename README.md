@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## TODO
+
+* Comprendre pourquoi les descriptions de prestations ne fonctionnent pas correctement
+* Mettre une police dans le h2 du titre
+* Comprendre pourquoi l'image ne s'affiche pas sur github

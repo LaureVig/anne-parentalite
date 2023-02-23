@@ -1,6 +1,9 @@
 <div ngClass="card" style="margin-bottom: 10px;">
-    <p style="text-align: center; font-size: x-large;">{{ prestation.name }}</p>
-    <p>{{prestation.description }}</p>
-    <p>Nombre de sessions conseillées : {{ prestation.nb_sessions}}</p>
-    <p>Prix : {{ prestation.prix}} €</p>
+    <div ngClass="texte-prestation">
+        <p style="text-align: center; font-size: x-large;">{{ prestation.name }}</p>
+        <p>{{prestation.description }}</p>
+        <p>Durée des sessions conseillée : {{ prestation.duree_session}}</p>
+        <p>Prix : {{ prestation.prix}} €</p>
+    </div>
+    
 </div>
