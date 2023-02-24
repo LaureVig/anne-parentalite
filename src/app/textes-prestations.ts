@@ -13,8 +13,8 @@ export const PRESTATIONS: Prestation[] = [
         id: 2,
         prix: 50,
         duree_session: "3h",
-        name: "Massages en individuel ou en groupe",
-        description: "en individuel ou  en groupe",
+        name: "Apprentissage des massages pour bébé (de 1 à 12 mois) en individuel ou en groupe",
+        description: "Instructrice en massages pour bébé Certifiée AFMB depuis 2019, je peux vous apprendre à masser votre bébé.",
         isVisible:true,
     }
 ];

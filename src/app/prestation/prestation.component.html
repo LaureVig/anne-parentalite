@@ -1,7 +1,7 @@
 <div ngClass="card" style="margin-bottom: 10px;">
     <div ngClass="texte-prestation">
         <p style="text-align: center; font-size: x-large;">{{ prestation.name }}</p>
-        <p>{{prestation.description }}</p>
+        <div [innerHTML]="prestation.description"></div>
         <p>Durée des sessions conseillée : {{ prestation.duree_session}}</p>
         <p>Prix : {{ prestation.prix}} €</p>
     </div>
