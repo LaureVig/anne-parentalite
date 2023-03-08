@@ -1,6 +1,11 @@
+
 <p>Deux méthodes possibles : </p>
 <ol>
     <li>On affiche tous les détails en même temps</li>
-    <li>Pour voir les détails, il faut clicker sur la case (Un peu plus difficilie à faire, mais ça passe</li>
+    <li>Pour voir les détails, il faut clicker sur la case (Un peu plus difficile à faire, mais ça passe)</li>
 </ol>
-<app-prestation *ngFor="let prestation of prestations" [prestation]=prestation></app-prestation>
+<div class="row">
+    <div class="col"*ngFor="let prestation of prestations">
+        <app-prestation [prestation]=prestation></app-prestation>
+    </div>
+</div>

@@ -1,14 +1,13 @@
-.card {
-    width:400px;
-    height : 350px;
+.texte-prestation {
+    width: 97.5%;
     margin: auto;
-    text-align:center;
-    border-color: lightblue;
 }
-
-.card-img-top {
-    height : 200px;
-    object-fit:cover;
+.card {
+    width:75%;
+    margin: auto;
+    text-align: justify;
+    border-color: lightblue;
+    padding: 10px;
 }
 .btn {
     width: 100px;
