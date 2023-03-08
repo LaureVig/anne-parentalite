@@ -28,6 +28,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## TODO
 
-* Comprendre pourquoi les descriptions de prestations ne fonctionnent pas correctement
-* Mettre une police dans le h2 du titre
 * Comprendre pourquoi l'image ne s'affiche pas sur github
+* Afficher sur quel onglet nous sommes
+* Dans services, essayer de faire des cases plus petites avec juste le titre et une photo lambda
+* Dans contact, mettre le mail et le tel sur la même ligne
+* Ajouter le rayon d'action

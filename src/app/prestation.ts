@@ -6,5 +6,6 @@ export class Prestation {
         public name: string,
         public description: string,
         public isVisible:boolean,
+        public image:string,
     ){}
 }
