@@ -2,8 +2,6 @@
     <div ngClass="texte-prestation">
         <p style="text-align: center; font-size: x-large;">{{ prestation.name }}</p>
         <div [innerHTML]="prestation.description"></div>
-        <p>Durée des sessions conseillée : {{ prestation.duree_session}}</p>
-        <p>Prix : {{ prestation.prix}} €</p>
     </div>
     <a class="btn" routerLink="/services">Retour</a>
 </div>

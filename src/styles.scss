@@ -1,8 +1,15 @@
 body {
-  background-image: url("assets/Fond Anne.jpg") ;
+  background-image: url("assets/Fond-Anne.jpg") ;
+  font-size: large;
+}
+h1 {
+  font-size: xxx-large;
 }
 
 .fullpage{
   min-height: 50vh;
   position: relative;
+}
+.active-link {
+  font-weight: bold;
 }
