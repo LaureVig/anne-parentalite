@@ -1,8 +1,8 @@
 .card {
-    width:400px;
     height : 350px;
     margin: auto;
     text-align:center;
+    border-width: 2px;
     border-color: lightblue;
 }
 
@@ -14,4 +14,19 @@
     width: 100px;
     margin:auto;
     background-color: lightblue;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 5px grey;
+}
+
+.card:hover {
+    box-shadow: 10px 5px 5px grey;
+}
+
+@media screen and (max-width:767px) {
+    .card {
+        width:100%;
+        height: auto;
+    }
 }

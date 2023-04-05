@@ -2,6 +2,7 @@
     <img src="{{prestation.image}}" class="card-img-top" alt="...">
     <div class="card-body">
         <h5 class="card-title">{{ prestation.name }}</h5>
+        <h6>Tarifs : {{ prestation.prix }}</h6>
         <a class="btn" [routerLink]="['/details',prestation.id]">Details</a>
     </div>
 </div>

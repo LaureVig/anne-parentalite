@@ -13,6 +13,7 @@ import { PrestationComponent } from './prestation/prestation.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { DetailsPrestationComponent } from './details-prestation/details-prestation.component';
+import { NgbModalModule, NgbModal,  NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -29,10 +30,13 @@ import { DetailsPrestationComponent } from './details-prestation/details-prestat
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    NgbModalModule
   ],
   providers: [
-    { provide: LOCALE_ID, useValue: 'fr-FR'}
+    { provide: LOCALE_ID, useValue: 'fr-FR'},
+    NgbModal
   ],
   bootstrap: [AppComponent]
 })

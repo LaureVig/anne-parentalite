@@ -4,3 +4,13 @@ h1 {
 h2 {
     font-family: 'DK Lemon Yellow Sun', sans-serif;
 }
+img {
+    width:400px;
+}
+
+@media screen and (max-width=500px) {
+    img {
+        width:100%;
+    }
+    
+}
