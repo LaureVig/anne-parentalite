@@ -9,11 +9,11 @@ import { Prestation } from '../prestation';
   styleUrls: ['./details-prestation.component.scss']
 })
 export class DetailsPrestationComponent {
-  prestation!:Prestation;
+  prestation!: Prestation;
   constructor(private ServicesService: ServicesService,
-              private route:ActivatedRoute) {}
+    private route: ActivatedRoute) { }
 
-  ngOnInit(){
+  ngOnInit() {
     const prestationId = +this.route.snapshot.params['id'];
     this.prestation = this.ServicesService.getPrestationById(prestationId);
   }

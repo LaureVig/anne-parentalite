@@ -1,6 +1,7 @@
 body {
   background-image: url("assets/Fond-Anne.jpg") ;
   font-size: large;
+  width: fit-content;
 }
 h1 {
   font-size: xxx-large;
@@ -10,6 +11,7 @@ h1 {
   min-height: 50vh;
   position: relative;
 }
+
 .active-link {
   font-weight: bold;
   border : 2px solid black;
