@@ -8,11 +8,18 @@ h1 {
 }
 
 .fullpage{
-  min-height: 50vh;
+  min-height: fit-content;
   position: relative;
 }
 
 .active-link {
   font-weight: bold;
   border : 2px solid black;
+}
+
+@media screen and (min-width:500px) {
+  body {
+    width:auto;
+  }
+
 }

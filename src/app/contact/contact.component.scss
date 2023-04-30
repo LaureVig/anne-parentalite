@@ -4,7 +4,7 @@
 }
 
 .contact {
-    width: 75%;
+    width: 100%;
     margin: auto;
     border: solid lightblue;
     border-radius: 10px;
@@ -28,7 +28,7 @@ p {
 }
 
 .rayon {
-    width: 40%;
+    width: 70%;
     margin: auto;
 }
 
@@ -36,4 +36,13 @@ img {
     object-fit: scale-down;
     width: 100%;
     margin: auto;
+}
+
+@media screen and (min-width:700px) {
+    .contact {
+        width: 75%;
+    }
+    .rayon {
+        width: 50%;
+    }
 }
