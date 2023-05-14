@@ -6,9 +6,9 @@ export const PRESTATIONS: Prestation[] = [
         prix: "60€ la première séance, 50€ les suivantes",
         duree_session: "1h - 1h30",
         name: "Accompagnement personnalisé à la parentalité",
-        description: "<p>Chaque enfant est unique et son, ses parents également !</p>"+
-        "<p>L'arrivée d'un bébé provoque un bouleversement. Il est souvent difficile de  comprendre ce petit être qui a des rythmes, un sommeil, une communication… différents de l'adulte.</p>"+
-        "<p>Il n'y a pas de recette Miracle ! Ensemble, avec un temps d'échange, une écoute attentive, sans jugement ni tabou, je vous propose un accompagnement. "+
+        description: "<p>Chaque enfant est <b>unique</b> et son, ses parents également !</p>"+
+        "<p>L'arrivée d'un bébé provoque un bouleversement. Il est souvent difficile de <b>comprendre ce petit être</b> qui a des rythmes, un sommeil, une communication… différents de l'adulte.</p>"+
+        "<p>Il n'y a pas de <b>recette Miracle</b> ! Ensemble, avec un temps d'échange, une écoute attentive, sans jugement ni tabou, je vous propose un accompagnement. "+
         "En fonction de vos problématiques, vos besoins, nous chercherons des solutions dans le but que vous trouviez ensuite seul les réponses adaptées à votre enfant.</p>"+
         "<p>Je vous propose plusieurs thématiques :"+
         "<ul> <li>les pleurs,</li>"+
@@ -24,14 +24,14 @@ export const PRESTATIONS: Prestation[] = [
     },
     {
         id: 2,
-        prix: "60€ la première séance, 50€ les suivantes",
+        prix: "50€ séance découverte, 150€ les 5 séances",
         duree_session: "3h",
         name: "Apprentissage des massages pour bébé (de 1 à 12 mois) en groupe",
         description: "<p>Instructrice en massages pour bébé de l'AFMB (Association Française de Massages pour Bébé),"+
         " je propose un atelier massages pour les enfants de 1 à 12 mois.  Il s'agit de vous initier à une méthode très respectueuse de l'enfant,"+
         " comme le fait de demander l'autorisation à votre bébé de le masser. Vous seul, parent, pouvez masser votre enfant dans ce cadre."+
         " Je vous montre les massages sur un poupon, votre bébé sera touché, massé uniquement par vous.</p>"+
-        "<h6>Pourquoi masser son bébé ?</h6>"+
+        "<p> <b>Pourquoi masser son bébé ?</b></p>"+
         "<p>Il y a quatre grandes catégories de bienfaits pour le bébé : "+
         "<ul> <li>La relaxation : elle permet l'amélioration du cycle du sommeil, l'augmentation de la capacité de se calmer, d'adaptation à l'environnement,"+
         " la normalisation du tonus musculaire, le plaisir des moments privilégiés, la diminution des taux d'hormones liées au stress, ...</li>"+
@@ -45,13 +45,13 @@ export const PRESTATIONS: Prestation[] = [
         "<li>la rencontre avec d'autres parents...</li></ul></p>"+
         "<p>Lors de chaque cycle de massages, beaucoup de moments très précieux, très riches en émotions sont présents."+
         "Vous partagerez un moment de plaisir avec votre enfant.</p>"+
-        "<h6>Comment s’organise l’atelier ? </h6>"+
-        "<p>Les ateliers sont au nombre de 5 séances à une semaine d’intervalle minimum. Chaque séance se déroule comme suit :"+
-        " vous commencerez par une petite séance de relaxation, puis vous serez guidés pour les massages d’une partie du corps."+
-        " Si votre enfant dort ou n’est pas disponible, vous pourrez vous entraîner à masser sur un poupon. Ensuite, vous aurez une discussion variée sur le thème du petit enfant, la parentalité. La séance se termine par un poème."+
-        " Chaque séance dure une bonne heure. L’huile est fournie, vous repartez avec un schéma sur les massages vus ensemble. Lors de la séance suivante, des révisions sont faites et une autre partie du corps est montrée."+
-        " Il vous est demandé d’apporter une grande serviette de toilette et de quoi changer la couche de votre bébé. Photos et films ne seront pas possibles pendant cet atelier."+
-        " L’atelier massages s’effectue en individuel ou par petit groupe (5 familles maximum), chaque enfant est accompagné de son ou ses parent(s) (père et ou mère)."+
+        "<p> <b>Comment s'organise l'atelier ? </b></p>"+
+        "<p>Les ateliers sont au nombre de 5 séances à une semaine d'intervalle minimum. Chaque séance se déroule comme suit :"+
+        " vous commencerez par une petite séance de relaxation, puis vous serez guidés pour les massages d'une partie du corps."+
+        " Si votre enfant dort ou n'est pas disponible, vous pourrez vous entraîner à masser sur un poupon. Ensuite, vous aurez une discussion variée sur le thème du petit enfant, la parentalité. La séance se termine par un poème."+
+        " Chaque séance dure une bonne heure. L'huile est fournie, vous repartez avec un schéma sur les massages vus ensemble. Lors de la séance suivante, des révisions sont faites et une autre partie du corps est montrée."+
+        " Il vous est demandé d'apporter une grande serviette de toilette et de quoi changer la couche de votre bébé. Photos et films ne seront pas possibles pendant cet atelier."+
+        " L'atelier massages s'effectue en individuel ou par petit groupe (5 familles maximum), chaque enfant est accompagné de son ou ses parent(s) (père et ou mère)."+
         " Espérant que cet atelier répondra à vos attentes .</p>",
         isVisible:true,
         image:"../../assets/afmb.png",
