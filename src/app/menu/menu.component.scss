@@ -1,8 +1,9 @@
 .navbar {
     text-align: center;
-    width:500px;
-    margin:auto;
+    width: 500px;
+    margin: auto;
 }
+
 .navbar a {
     float: left;
     font-size: 35px;
@@ -13,13 +14,27 @@
     font-family: 'Pumpkin Cheesecake', sans-serif;
     border-radius: 20px;
 }
+
 .collapse {
     text-align: center;
 }
+
 .navbar-nav {
     margin: auto;
 }
 
 .navbar a:hover {
     background-color: aqua;
+}
+
+.center {
+    margin: 0 auto;
+        width: 100px;
+}
+
+@media screen and (min-width:992px) {
+    .center {
+        margin: 0 auto;
+        width: 100%;
+    }
 }
