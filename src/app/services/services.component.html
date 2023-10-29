@@ -1,6 +1,6 @@
 <div class="row">
-    <div class="col-lg-4 "*ngFor="let prestation of prestations">
-        <app-prestation [prestation]=prestation></app-prestation>
-    </div>
+  <div *ngFor="let prestation of prestations" class="col-lg-4 ">
+    <app-prestation [prestation]=prestation></app-prestation>
+  </div>
 </div>
 

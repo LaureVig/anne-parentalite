@@ -1,40 +1,40 @@
 .navbar {
-    text-align: center;
-    width: 500px;
-    margin: auto;
+  text-align: center;
+  width: 500px;
+  margin: auto;
 }
 
 .navbar a {
-    float: left;
-    font-size: 35px;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: black;
-    font-family: 'Pumpkin Cheesecake', sans-serif;
-    border-radius: 20px;
+  float: left;
+  font-size: 35px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Pumpkin Cheesecake', sans-serif;
+  border-radius: 20px;
 }
 
 .collapse {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar-nav {
-    margin: auto;
+  margin: auto;
 }
 
 .navbar a:hover {
-    background-color: aqua;
+  background-color: aqua;
 }
 
 .center {
-    margin: 0 auto;
-        width: 100px;
+  margin: 0 auto;
+  width: 100px;
 }
 
-@media screen and (min-width:992px) {
-    .center {
-        margin: 0 auto;
-        width: 100%;
-    }
+@media screen and (min-width: 992px) {
+  .center {
+    margin: 0 auto;
+    width: 100%;
+  }
 }

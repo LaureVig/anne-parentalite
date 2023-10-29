@@ -1,6 +1,6 @@
-import { Component, TemplateRef, ViewChild } from '@angular/core';
-import { Prestation } from '../prestation';
-import { ServicesService } from '../services.service';
+import {Component} from '@angular/core';
+import {Prestation} from '../prestation';
+import {ServicesService} from '../services.service';
 
 @Component({
   selector: 'app-services',
@@ -10,10 +10,12 @@ import { ServicesService } from '../services.service';
 export class ServicesComponent {
   public prestations !: Prestation[];
 
+  constructor(private servicesService: ServicesService) {
+  }
+
   ngOnInit(): void {
     this.prestations = this.servicesService.prestations;
   }
-  constructor(private servicesService: ServicesService) { }
 
 
-  }
+}
