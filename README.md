@@ -26,11 +26,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## TODO
-
-* Comprendre pourquoi l'image ne s'affiche pas sur github
-* Afficher sur quel onglet nous sommes
-* Dans services, essayer de faire des cases plus petites avec juste le titre et une photo lambda
-* Dans contact, mettre le mail et le tel sur la même ligne
-* Ajouter le rayon d'action
