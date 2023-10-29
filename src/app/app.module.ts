@@ -29,7 +29,7 @@ import {NgbModal, NgbModalModule, NgbModule} from '@ng-bootstrap/ng-bootstrap';
     DetailsPrestationComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     NgbModule,
     NgbModalModule
