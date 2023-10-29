@@ -1,18 +1,9 @@
-.formulaire-contact {
-    width: 75%;
-    margin: auto;
-}
-
 .contact {
     width: 100%;
     margin: auto;
     border: solid lightblue;
     border-radius: 10px;
 
-}
-
-.form-group {
-    margin: 10px;
 }
 
 h2 {
@@ -28,7 +19,7 @@ p {
 }
 
 .rayon {
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
 
@@ -38,11 +29,22 @@ img {
     margin: auto;
 }
 
+iframe {
+    object-fit: scale-down;
+    width: 100%;
+    aspect-ratio: 100/150; 
+}
+
 @media screen and (min-width:700px) {
     .contact {
-        width: 75%;
+        width: 80%;
     }
     .rayon {
         width: 50%;
+    }
+
+    iframe {
+        width:95%;
+        aspect-ratio: 100/110; 
     }
 }
