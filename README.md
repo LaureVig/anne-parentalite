@@ -1,4 +1,4 @@
-# Snapface
+# Anne Parentalite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 
@@ -13,6 +13,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run 'npm run build:ssr' to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
