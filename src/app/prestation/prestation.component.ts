@@ -1,5 +1,5 @@
-import { Component, Input } from '@angular/core';
-import { Prestation } from '../prestation';
+import {Component, Input} from '@angular/core';
+import {Prestation} from '../prestation';
 
 @Component({
   selector: 'app-prestation',
@@ -7,6 +7,6 @@ import { Prestation } from '../prestation';
   styleUrls: ['./prestation.component.scss']
 })
 export class PrestationComponent {
-  @Input() prestation!:Prestation;
+  @Input() prestation!: Prestation;
 
 }

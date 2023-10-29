@@ -1,8 +1,8 @@
 <div ngClass="card" style="margin-bottom: 10px;">
-    <img src="{{prestation.image}}" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">{{ prestation.name }}</h5>
-        <h6>Tarifs : {{ prestation.prix }}</h6>
-        <a class="btn" [routerLink]="['/details',prestation.id]">Details</a>
-    </div>
+  <img alt="{{prestation.imageDescription}}" class="card-img-top" src="{{prestation.image}}">
+  <div class="card-body">
+    <h5 class="card-title">{{ prestation.name }}</h5>
+    <h6>Tarifs : {{ prestation.prix }}</h6>
+    <a [routerLink]="['/details',prestation.id]" class="btn">Details</a>
+  </div>
 </div>

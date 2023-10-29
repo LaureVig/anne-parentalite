@@ -1,50 +1,50 @@
 .contact {
-    width: 100%;
-    margin: auto;
-    border: solid lightblue;
-    border-radius: 10px;
+  width: 100%;
+  margin: auto;
+  border: solid lightblue;
+  border-radius: 10px;
 
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
 .rayon {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 img {
-    object-fit: scale-down;
-    width: 100%;
-    margin: auto;
+  object-fit: scale-down;
+  width: 100%;
+  margin: auto;
 }
 
 iframe {
-    object-fit: scale-down;
-    width: 100%;
-    aspect-ratio: 100/150; 
+  object-fit: scale-down;
+  width: 100%;
+  aspect-ratio: 100/150;
 }
 
-@media screen and (min-width:700px) {
-    .contact {
-        width: 80%;
-    }
-    .rayon {
-        width: 50%;
-    }
+@media screen and (min-width: 700px) {
+  .contact {
+    width: 80%;
+  }
+  .rayon {
+    width: 50%;
+  }
 
-    iframe {
-        width:95%;
-        aspect-ratio: 100/110; 
-    }
+  iframe {
+    width: 95%;
+    aspect-ratio: 100/110;
+  }
 }

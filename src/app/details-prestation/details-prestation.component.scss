@@ -1,28 +1,28 @@
 .texte-prestation {
-    width: 97.5%;
-    margin: auto;
+  width: 97.5%;
+  margin: auto;
 }
 
 .card {
-    width: 100%;
-    margin: auto;
-    text-align: justify;
-    border-color: lightblue;
-    padding: 10px;
+  width: 100%;
+  margin: auto;
+  text-align: justify;
+  border-color: lightblue;
+  padding: 10px;
 }
 
 .btn {
-    width: 100px;
-    margin: auto;
-    background-color: lightblue;
+  width: 100px;
+  margin: auto;
+  background-color: lightblue;
 }
 
 span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-@media screen and (min-width:500px) {
-    .card {
-        width: 75%;
-    }
+@media screen and (min-width: 500px) {
+  .card {
+    width: 75%;
+  }
 }

@@ -1,24 +1,26 @@
-import { Injectable } from '@angular/core';
-import { Prestation } from './prestation';
-import { PRESTATIONS} from './textes-prestations';
+import {Injectable} from '@angular/core';
+import {Prestation} from './prestation';
+import {PRESTATIONS} from './textes-prestations';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ServicesService {
   public prestations: Prestation[] = PRESTATIONS;
-  constructor() { }
+
+  constructor() {
+  }
 
   getPrestationById(prestationId: number): Prestation {
     const prestation = this.prestations.find(prestation => prestation.id === prestationId);
     if (!prestation) {
-        throw new Error('Pas de prestation');
+      throw new Error('Pas de prestation');
     } else {
-        return prestation;
+      return prestation;
     }
   }
 
-  getAllPrestations():Prestation[] {
+  getAllPrestations(): Prestation[] {
     return this.prestations;
   }
 }
