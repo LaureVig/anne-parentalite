@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://parentalite29.fr/sitemap.xml
